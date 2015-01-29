@@ -1,0 +1,46 @@
+{
+	"name"   : "grunt-polyfill-service",
+	"version": "0.0.1",
+	"author" : "Abashkin Alexander <monolithed@gmail.com>",
+	"homepage": "https://github.com/monolithed/grunt-polyfill-service.git",
+
+	"description": "A polyfill combinator",
+
+	"keywords": [ "polyfill-service", "polyfill", "es5", "es6", "harmony"],
+
+	"man": "README.md",
+
+	"engines": {
+		"node": ">=0.10.28"
+	},
+
+	"repository": {
+		"type": "git",
+		"url" :  "https://github.com/monolithed/grunt-polyfill-service.git"
+	},
+
+	"bugs": {
+		"url": "https://github.com/monolithed/grunt-polyfill-service/issues"
+	},
+
+	"scripts": {
+		"test": "grunt test"
+	},
+
+	"dependencies": {
+		"polyfill-service": "^1.1.0"
+	},
+
+	"devDependencies": {
+		"grunt"                 : "^0.4.5",
+		"grunt-contrib-clean"   : "^0.6.0",
+		"grunt-contrib-nodeunit": "^0.4.1"
+	},
+
+	"licenses": [
+		{
+			"type": "MIT",
+			"url" : "http: //www.opensource.org/licenses/mit-license.php"
+		}
+	]
+}
