@@ -19,8 +19,10 @@ module.exports = function (grunt) {
 				sources = options.process.call(this, sources);
 			}
 
-			grunt.file.write(this.data.dest, sources);
-			grunt.log.oklns('File "' + this.data + '" created.');
+			var file = this.data.dest;
+
+			grunt.file.write(file, sources);
+			grunt.log.oklns('File "' + file + '" created.');
 		}
 	);
 };

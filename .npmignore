@@ -114,3 +114,5 @@ Icon?
 .coveralls.yml
 tmp
 /cache
+
+tests/fixtures.js
