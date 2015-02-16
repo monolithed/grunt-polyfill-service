@@ -1,5 +1,7 @@
 # grunt-polyfill-service
 
+[![npm version badge](https://img.shields.io/npm/v/grunt-polyfill-service.svg)](https://www.npmjs.org/package/grunt-polyfill-service)
+
 [![Build Status](https://travis-ci.org/monolithed/grunt-polyfill-service.png)](https://travis-ci.org/monolithed/grunt-polyfill-service)
 [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
