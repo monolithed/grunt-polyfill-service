@@ -28,7 +28,7 @@ grunt.loadNpmTasks('grunt-polyfill-service');
 ```
 
 ## polyfill-service task
-_Run this task with the `grunt grunt-polyfill-service` command._
+_Run this task with the `grunt polyfill-service` command._
 
 Task targets, files and options may be specified according to the grunt [Configuring tasks](http://gruntjs.com/configuring-tasks) guide.
 
