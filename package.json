@@ -28,7 +28,7 @@
 	},
 
 	"dependencies": {
-		"polyfill-service": "^1.1.0"
+		"polyfill-service": "^1.4.0"
 	},
 
 	"devDependencies": {
