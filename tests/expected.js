@@ -1,14 +1,3 @@
-/* For detailed credits and licence information see http://github.com/financial-times/polyfill-service.
- *
- * UA detected: ie/7.0.0
- * Features requested: Math.acosh
- *
- * - Math.acosh, License: CC0  */
+/* Rerun without minification for verbose metadata */
 
-
-// Math.acosh
-if (!(Math.acosh)) {
-Math.acosh = function acosh(x) {
-	return Math.log(x + Math.sqrt(x * x - 1));
-};
-}
+(function(undefined) {if (!('acosh' in Math)) {Math.acosh=function(t){return Math.log(t+Math.sqrt(t*t-1))};}}).call('object' === typeof window && window || 'object' === typeof self && self || 'object' === typeof global && global || {});

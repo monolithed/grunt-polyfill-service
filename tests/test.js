@@ -8,7 +8,7 @@ exports.tests = {
 		var fixtures = fs.readFileSync('tests/fixtures.js', 'utf8'),
 			expected = fs.readFileSync('tests/expected.js', 'utf8');
 
-		test.equal(fixtures, fixtures);
+		test.equal(fixtures, expected);
 		test.done();
 	}
 };

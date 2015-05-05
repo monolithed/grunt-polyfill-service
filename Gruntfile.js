@@ -6,12 +6,12 @@ module.exports = function (grunt) {
 			production: {
 				options: {
 					uaString: 'MSIE 7.0',
-
 					features: {
 						'Math.acosh': {
 							flags: ['always', 'gated']
 						}
-					}
+					},
+					minify: true,
 				},
 
 				dest: 'tests/fixtures.js'
